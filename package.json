@@ -1,0 +1,25 @@
+{
+  "name": "yugioh-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd ./Yugioh-Project-Back && npm start",
+    "client": "cd ./Yugioh-Project-Front && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dreyrk/Yugioh-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dreyrk/Yugioh-Project/issues"
+  },
+  "homepage": "https://github.com/Dreyrk/Yugioh-Project#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
